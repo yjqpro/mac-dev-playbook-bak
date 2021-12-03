@@ -1,7 +1,8 @@
 ---
 roles:
   - name: elliotweiser.osx-command-line-tools
-  - name: geerlingguy.dotfiles
+  - name: yjqpro.dotfiles
+    src: https://github.com/yjqpro/ansible-role-dotfiles.git 
 
 collections:
   - name: geerlingguy.mac
