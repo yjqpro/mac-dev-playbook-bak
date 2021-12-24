@@ -24,62 +24,94 @@ sudoers_custom_config: ''
 #   # Allow users in admin group to use sudo with no password.
 #   %admin ALL=(ALL) NOPASSWD: ALL
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/yjqpro/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
   - .zshrc
-  - .gitignore
-  - .inputrc
   - .osx
-  - .vimrc
+  - .p10k.zsh
+  - .tmux.conf
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
   - bash-completion
+  - bison
+  - ccls
+  - cmake
+  - cowsay
   - doxygen
-  - gettext
+  - efm-langserver
+  - gdb
   - gifsicle
   - git
-  - github/gh/gh
+  - pkg-config
+  - gnupg
   - go
-  - gpg
   - httpie
   - iperf
-  - libevent
-  - sqlite
+  - lua
+  - luajit
+  - luarocks
+  - mas
   - mcrypt
+  - neovim
+  - nghttp2
+  - ninja
   - nmap
   - node
   - nvm
+  - openssl@3
   - php
-  - ssh-copy-id
-  - cowsay
-  - readline
-  - openssl
   - pv
+  - python@3.9
+  - ripgrep
+  - ssh-copy-id
+  - tmux
   - wget
   - wrk
+  - yamllint
   - zsh-history-substring-search
 
 homebrew_taps:
-  - homebrew/core
+  - github/gh
+  - homebrew/bundle
   - homebrew/cask
+  - homebrew/cask-fonts
+  - homebrew/core
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - alfred
+  - appcleaner
+  - baidunetdisk
+  - beyond-compare
   - chromedriver
+  - dash
   - docker
   - dropbox
-  - firefox
+  - font-jetbrains-mono-nerd-font
+  - go2shell
   - google-chrome
-  - handbrake
+  - iina
+  - karabiner-elements
+  - keepassxc
+  - kitty
   - licecap
+  - macvim
+  - oracle-jdk
+  - pdf-expert
+  - scatter
+  - scroll-reverser
   - sequel-ace
   - slack
-  - transmit
-  - vagrant
+  - squirrel
+  - telegram-desktop
+  - the-unarchiver
+  - virtualbox
+  - yinxiangbiji
+  - youdaodict
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
