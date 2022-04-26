@@ -86,7 +86,8 @@ homebrew_cask_apps:
   - youdaodict
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps:
+  - { id: 441258766, name: "Magnet"}
 mas_email: ""
 mas_password: ""
 
