@@ -37,12 +37,17 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - clang-format
   - cmake
+  - fzf
   - httpie
   - hugo
   - lazygit
   - lf
+  - lua
+  - luajit
+  - llvm
   - neovim
   - pipx
+  - pkg-config
   - ripgrep
   - tmux
 
