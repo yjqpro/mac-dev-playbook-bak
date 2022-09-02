@@ -68,8 +68,6 @@ homebrew_installed_packages:
   - frei0r
   - fribidi
   - gd
-  - gdb
-  - gdbm
   - gettext
   - giflib
   - gifsicle
@@ -267,7 +265,6 @@ homebrew_cask_apps:
   - licecap
   - macvim
   - michaelvillar-timer
-  - mumu
   - oracle-jdk
   - pdf-expert
   - scatter
